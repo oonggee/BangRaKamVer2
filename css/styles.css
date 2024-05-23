@@ -110,10 +110,10 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 105, 112, 122;
   --bs-body-bg-rgb: 242, 246, 252;
-  --bs-font-sans-serif: "Sarabun", san-serif in !important;
+  --bs-font-sans-serif: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Sarabun, san-serif in !important;
+  --bs-body-font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -14949,123 +14949,114 @@ body {
   overflow-x: hidden;
 }
 
-.sarabun-thin {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-Thin.otf");
   font-weight: 100;
   font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 }
-
-.sarabun-extralight {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-light {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-regular {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-medium {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-semibold {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-bold {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-extrabold {
-  font-family: "Sarabun", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-}
-
-.sarabun-thin-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-ThinItalic.otf");
   font-weight: 100;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 }
-
-.sarabun-extralight-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-ExtraLight.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-ExtraLightItalic.otf");
   font-weight: 200;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 }
-
-.sarabun-light-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-LightItalic.otf");
   font-weight: 300;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 }
-
-.sarabun-regular-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-RegularItalic.otf");
   font-weight: 400;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 }
-
-.sarabun-medium-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-MediumItalic.otf");
   font-weight: 500;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 }
-
-.sarabun-semibold-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-SemiBold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-SemiBoldItalic.otf");
   font-weight: 600;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 }
-
-.sarabun-bold-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-BoldItalic.otf");
   font-weight: 700;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 }
-
-.sarabun-extrabold-italic {
-  font-family: "Sarabun", sans-serif;
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-ExtraBold.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf");
   font-weight: 800;
   font-style: italic;
-  src: url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 }
-
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-Black.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/metropolis/Metropolis-BlackItalic.otf");
+  font-weight: 800;
+  font-style: italic;
+}
 #layoutAuthentication {
   display: flex;
   flex-direction: column;
